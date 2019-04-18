@@ -65,6 +65,7 @@ function addGoalAction(goal) {
   }
 }
 
+
 function removeGoalAction(id) {
   return {
     type: REMOVE_GOAL,
@@ -116,7 +117,7 @@ store.subscribe(() => {
 
 store.dispatch(addTodoAction({
   id: 0,
-  name: 'Walk the dog',
+  name: 'Walk the ads dog',
   complete: false
 }))
 
